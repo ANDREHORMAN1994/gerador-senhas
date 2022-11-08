@@ -1,0 +1,23 @@
+{
+  "name": "gerador-senhas",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview --port 8080",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^4.0.0",
+    "vite": "^3.2.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint-config-trybe-frontend": "^1.3.1"
+  }
+}
